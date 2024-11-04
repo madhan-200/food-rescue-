@@ -1,0 +1,38 @@
+.volunteer-report-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .volunteer-report-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .volunteer-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .volunteer-table th,
+  .volunteer-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .volunteer-table th {
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .volunteer-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .volunteer-table tr:hover {
+    background-color: #e2e2e2;
+  }  
